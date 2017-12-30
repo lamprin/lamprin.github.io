@@ -8,7 +8,7 @@ Making us solve simple yet complex problems.
 
 ## About
 
-lamprin is an artificail intelligence company. We aim at solving simple yet complex problems using machine intelligence. We are taking the most simplest problem from our everyday life which we do routinely without realising that we can ask a machine to bother about it while we focus on something more important.
+lamprin is an artificial intelligence company. We aim at solving simple yet complex problems using machine intelligence. We are taking the most simplest problem from our everyday life which we do routinely without realising that we can ask a machine to bother about it while we focus on something more important.
 
 To know more about the solutions we provide, please visit: [https://lampr.in](https://lampr.in).
 
