@@ -51,6 +51,20 @@ a {
   width: 128px;
 }
 
+.logoFooter {
+  display:inline-block;
+  height: 10%;
+  widows: 10%;  
+}
+
+.verticalSeparator {
+    display: block;
+    width: 160px;
+    height: 1px;
+    background: rgba(255,255,255,.15);
+    margin: 10px 0;
+}
+
 #mainNav {
   font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   margin-bottom: 0;
