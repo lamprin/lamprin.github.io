@@ -1,0 +1,43 @@
+{
+  "title": "Lamprin",
+  "name": "lamprin labs",
+  "version": "4.0.0-beta.2",
+  "description": "An AI company building solutions for industry problems",
+  "keywords": [
+    "css",
+    "sass",
+    "html",
+    "responsive",
+    "theme",
+    "template"
+  ],
+  "homepage": "https://lampr.in",
+  "bugs": {
+    "url": "https://github.com/lamprin/lamprin.github.io",
+    "email": "dev@lampr.in"
+  },
+  "license": "MIT",
+  "author": "Lamprin",
+  "contributors": [
+    "Ankit Singh (http://davidmiller.io/)"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.com/lamprin/Lamprin_Website"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0-beta.2",
+    "font-awesome": "4.7.0",
+    "jquery": "^3.2.1",
+    "jquery.easing": "^1.4.1"
+  },
+  "devDependencies": {
+    "browser-sync": "2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "3.9.0",
+    "gulp-header": "1.8.9",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "3.0.0"
+  }
+}
