@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>lamprin labs</title>
+    <title>lamprin lab</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -57,7 +57,7 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-8 mx-auto">
-              <h1 class="brand-heading">Lamprin</h1>
+              <img src="img/logo.png" class="col-lg-8 mx-auto" />
               <p class="intro-text">An AI based company solving the industry problems</p>
               <a href="#about" class="btn btn-circle js-scroll-trigger">
                 <i class="fa fa-angle-double-down animated"></i>
@@ -106,38 +106,64 @@
             <p>Feel free to leave us a comment on the
               <a href="http://startbootstrap.com/template-overviews/grayscale/">Grayscale template overview page</a>
               on Start Bootstrap to give some feedback about this theme!</p>
-            <ul class="list-inline banner-social-buttons">
-              <li class="list-inline-item">
-                <a href="https://facebook.com/lamprinlab" class="btn btn-default btn-lg">
-                  <i class="fa fa-facebook fa-fw"></i>
-                  <span class="network-name">Facebook</span>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="https://twitter.com/lamprinlab" class="btn btn-default btn-lg">
-                  <i class="fa fa-twitter fa-fw"></i>
-                  <span class="network-name">Twitter</span>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="https://github.com/lamprin" class="btn btn-default btn-lg">
-                  <i class="fa fa-github fa-fw"></i>
-                  <span class="network-name">Github</span>
-                </a>
-              </li>
-            </ul>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Map Section -->
-    <div id="map"></div>
-
     <!-- Footer -->
     <footer>
-      <div class="container text-center">
-        <p>Copyright &copy; lamprin 2018</p>
+      <div class="row">
+        <div class="col-lg-2">
+        </div>
+        <div class="col-lg-8">
+          <div class="row">
+            <div class="col-lg-3">
+              <center>
+                <img src="img/logo.png" class="col-lg-8" >
+              </center>
+              <div class="container text-center">
+                <p>Copyright &copy; lamprin 2018</p>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              SOLUTIONS
+              <div class="verticalSeparator"></div>
+            </div>
+            <div class="col-lg-3">
+              KNOW MORE
+              <div class="verticalSeparator"></div>
+            </div>
+            <div class="col-lg-3">
+              CONTACT US
+              <div class="verticalSeparator"></div>
+              <br />
+              Email: <a href="mailto:xyz@lampr.in">xyz@lampr.in</a>
+              <div>
+                <br />
+                <ul class="list-inline banner-social-buttons">
+                  <li class="list-inline-item">
+                    <a href="https://github.com/lamprin">
+                      <i class="fa fa-github fa-fw"></i>
+                    </a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="https://twitter.com/lamprinlab">
+                      <i class="fa fa-twitter fa-fw"></i>
+                    </a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="https://facebook.com/lamprinlab">
+                      <i class="fa fa-facebook fa-fw"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-2">
+        </div>
       </div>
     </footer>
 
@@ -158,26 +184,9 @@
         autoplay: true, // Optional
         name: "Hello World", // Name for future reference. Optional.
       });
-
       animation.setSpeed(0.4)
 
     </script>
-    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
-    <script>
-      function initMap() {
-        var uluru = {lat: 12.9322998, lng: 77.6660787};
-        var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 13,
-          center: uluru
-        });
-        var marker = new google.maps.Marker({
-          position: uluru,
-          map: map
-        });
-      }
-    </script>
-    <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCfz_TSx-7V-yYnpszfJqfI6RI-oDO_wr4&callback=initMap"> </script>
 
     <!-- Custom scripts for this template -->
     <script src="js/grayscale.min.js"></script>
