@@ -100,7 +100,7 @@ a {
   padding: 200px 0;
   text-align: center;
   color: white;
-  background: url("../img/intro-bg.jpg") no-repeat bottom center scroll;
+  background: radial-gradient(circle at center center,#263238 0, #000 40%);
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
