@@ -41,6 +41,11 @@
 
 })(jQuery); // End of use strict
 
+//  Refresh the animation
+window.addEventListener('resize', function() {
+  animation.resize();
+});
+
 // Google Maps Scripts
 var map = null;
 // When the window has finished loading create our google map below
