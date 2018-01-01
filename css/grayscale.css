@@ -59,6 +59,10 @@ a {
   widows: 10%;  
 }
 
+.defaultPadding {
+  padding: 5px;
+}
+
 .verticalSeparator {
     display: block;
     width: 160px;
