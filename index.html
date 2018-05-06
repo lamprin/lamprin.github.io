@@ -252,6 +252,20 @@
       ga('send', 'pageview');
 
     </script>
+    
+    <!-- Marketale tracker start -->
+    <script type="text/javascript" async=1>
+      ;(function(s,t,r,e,a,m,x){if(!s[a]){s.StreamNamespace=s.StreamNamespace||[];
+      s.StreamNamespace.push(a);s[a]=function(){(s[a].q=s[a].q||[]).push(arguments)
+      };s[a].q=s[a].q||[];m=t.createElement(r);x=t.getElementsByTagName(r)[0];m.async=1;
+      m.src=e;x.parentNode.insertBefore(m,x)}}(window,document,"script","https://stream.marketale.com/m/mstream.min.js","marketale"));
+      window.marketale('newTracker', 'mt', '//stream.marketale.com', { 
+        appId: "23n82923t",
+        encodeBase64: false,
+      });
+      marketale('enableTracking');
+    </script>
+    <!-- Marketale tracker end-->
 
     <!-- Custom scripts for this template -->
     <script src="js/grayscale.js"></script>
